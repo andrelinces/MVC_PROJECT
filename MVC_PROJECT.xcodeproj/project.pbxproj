@@ -13,6 +13,8 @@
 		D3D44EE727DB884600B60F2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D44EE527DB884600B60F2F /* Main.storyboard */; };
 		D3D44EE927DB884800B60F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D44EE827DB884800B60F2F /* Assets.xcassets */; };
 		D3D44EEC27DB884800B60F2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D44EEA27DB884800B60F2F /* LaunchScreen.storyboard */; };
+		D3D44EF927DB8B5800B60F2F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D44EF827DB8B5800B60F2F /* Service.swift */; };
+		D3D44EFB27DB90C200B60F2F /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D44EFA27DB90C200B60F2F /* Course.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D3D44EE827DB884800B60F2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3D44EEB27DB884800B60F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3D44EED27DB884800B60F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D44EF827DB8B5800B60F2F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		D3D44EFA27DB90C200B60F2F /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		D3D44EF327DB88D300B60F2F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D3D44EFA27DB90C200B60F2F /* Course.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -95,6 +100,7 @@
 		D3D44EF627DB8A6200B60F2F /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				D3D44EF827DB8B5800B60F2F /* Service.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -171,6 +177,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3D44EE427DB884600B60F2F /* ViewController.swift in Sources */,
+				D3D44EF927DB8B5800B60F2F /* Service.swift in Sources */,
+				D3D44EFB27DB90C200B60F2F /* Course.swift in Sources */,
 				D3D44EE027DB884600B60F2F /* AppDelegate.swift in Sources */,
 				D3D44EE227DB884600B60F2F /* SceneDelegate.swift in Sources */,
 			);
