@@ -56,6 +56,10 @@
 		D3D44EDE27DB884600B60F2F /* MVC_PROJECT */ = {
 			isa = PBXGroup;
 			children = (
+				D3D44EF327DB88D300B60F2F /* Model */,
+				D3D44EF427DB88DE00B60F2F /* View */,
+				D3D44EF527DB88FA00B60F2F /* Controller */,
+				D3D44EF627DB8A6200B60F2F /* Service */,
 				D3D44EDF27DB884600B60F2F /* AppDelegate.swift */,
 				D3D44EE127DB884600B60F2F /* SceneDelegate.swift */,
 				D3D44EE327DB884600B60F2F /* ViewController.swift */,
@@ -65,6 +69,34 @@
 				D3D44EED27DB884800B60F2F /* Info.plist */,
 			);
 			path = MVC_PROJECT;
+			sourceTree = "<group>";
+		};
+		D3D44EF327DB88D300B60F2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3D44EF427DB88DE00B60F2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3D44EF527DB88FA00B60F2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D3D44EF627DB8A6200B60F2F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
