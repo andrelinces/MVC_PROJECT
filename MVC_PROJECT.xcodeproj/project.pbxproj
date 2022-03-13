@@ -16,6 +16,7 @@
 		D3D44EF927DB8B5800B60F2F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D44EF827DB8B5800B60F2F /* Service.swift */; };
 		D3D44EFB27DB90C200B60F2F /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D44EFA27DB90C200B60F2F /* Course.swift */; };
 		D3D44EFD27DC0A1D00B60F2F /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D44EFC27DC0A1D00B60F2F /* CourseCell.swift */; };
+		D3D44EFF27DE2CC400B60F2F /* CoursesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D44EFE27DE2CC400B60F2F /* CoursesController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D3D44EF827DB8B5800B60F2F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		D3D44EFA27DB90C200B60F2F /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		D3D44EFC27DC0A1D00B60F2F /* CourseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
+		D3D44EFE27DE2CC400B60F2F /* CoursesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		D3D44EF527DB88FA00B60F2F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D3D44EFE27DE2CC400B60F2F /* CoursesController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				D3D44EFB27DB90C200B60F2F /* Course.swift in Sources */,
 				D3D44EE027DB884600B60F2F /* AppDelegate.swift in Sources */,
 				D3D44EE227DB884600B60F2F /* SceneDelegate.swift in Sources */,
+				D3D44EFF27DE2CC400B60F2F /* CoursesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
