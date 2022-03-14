@@ -29,11 +29,11 @@ class CourseCell: UITableViewCell {
     
     //MARK: - CONFIGURATION OF AUTO LAYOUT
     
-    //Name title customization
+    //Name title customization, collor cell customization.
     override func setHighlighted(_ highlighted: Bool, animated: Bool) {
         super.setHighlighted(highlighted, animated: animated)
-        //contentView.backgroundColor = isHighlighted ? .highlightColor : .white
-        //textLabel?.textColor = isHighlighted ? UIColor.white : .mainTextBlue
+        contentView.backgroundColor = isHighlighted ? .highlightColor : .white
+        textLabel?.textColor = isHighlighted ? UIColor.white : .mainTextBlue
         detailTextLabel?.textColor = isHighlighted ? .white : .black
     }
 

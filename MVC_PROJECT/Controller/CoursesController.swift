@@ -14,8 +14,7 @@ class CoursesController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "MVC"
-        view.backgroundColor = .white
+        
         setupNavBar()
         setupTableView()
         fetchData()
@@ -51,7 +50,8 @@ class CoursesController: UITableViewController {
         tableView.register(CourseCell.self, forCellReuseIdentifier: cellId)
         tableView.separatorInset = UIEdgeInsets(top: 0, left: 24, bottom: 0, right: 24)
         tableView.separatorColor = .mainTextBlue
-        tableView.backgroundColor = UIColor.rgb(r: 12, g: 47, b: 57)
+        //tableView.backgroundColor = UIColor.rgb(r: 12, g: 47, b: 57)
+        tableView.backgroundColor = UIColor.lightGray
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 50
         tableView.tableFooterView = UIView()
@@ -60,10 +60,10 @@ class CoursesController: UITableViewController {
     fileprivate func setupNavBar() {
         navigationItem.title = "Courses"
         navigationController?.navigationBar.prefersLargeTitles = true
-        navigationController?.navigationBar.backgroundColor = .yellow
+        navigationController?.navigationBar.backgroundColor = .purple
         navigationController?.navigationBar.isTranslucent = false
         navigationController?.navigationBar.barTintColor = UIColor.rgb(r: 50, g: 199, b: 242)
-        navigationController?.navigationBar.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+        navigationController?.navigationBar.largeTitleTextAttributes = [.foregroundColor: UIColor.lightGray]
     }
 }
 
