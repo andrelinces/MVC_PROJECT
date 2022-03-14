@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D3D44EE027DB884600B60F2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D44EDF27DB884600B60F2F /* AppDelegate.swift */; };
-		D3D44EE227DB884600B60F2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D44EE127DB884600B60F2F /* SceneDelegate.swift */; };
 		D3D44EE427DB884600B60F2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D44EE327DB884600B60F2F /* ViewController.swift */; };
 		D3D44EE727DB884600B60F2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D44EE527DB884600B60F2F /* Main.storyboard */; };
 		D3D44EE927DB884800B60F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D44EE827DB884800B60F2F /* Assets.xcassets */; };
@@ -17,12 +16,12 @@
 		D3D44EFB27DB90C200B60F2F /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D44EFA27DB90C200B60F2F /* Course.swift */; };
 		D3D44EFD27DC0A1D00B60F2F /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D44EFC27DC0A1D00B60F2F /* CourseCell.swift */; };
 		D3D44EFF27DE2CC400B60F2F /* CoursesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D44EFE27DE2CC400B60F2F /* CoursesController.swift */; };
+		D3D44F0127DF811400B60F2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D44F0027DF811400B60F2F /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D3D44EDC27DB884600B60F2F /* MVC_PROJECT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVC_PROJECT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D44EDF27DB884600B60F2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3D44EE127DB884600B60F2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D3D44EE327DB884600B60F2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D3D44EE627DB884600B60F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3D44EE827DB884800B60F2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -32,6 +31,7 @@
 		D3D44EFA27DB90C200B60F2F /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		D3D44EFC27DC0A1D00B60F2F /* CourseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
 		D3D44EFE27DE2CC400B60F2F /* CoursesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesController.swift; sourceTree = "<group>"; };
+		D3D44F0027DF811400B60F2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 				D3D44EF527DB88FA00B60F2F /* Controller */,
 				D3D44EF627DB8A6200B60F2F /* Service */,
 				D3D44EDF27DB884600B60F2F /* AppDelegate.swift */,
-				D3D44EE127DB884600B60F2F /* SceneDelegate.swift */,
+				D3D44F0027DF811400B60F2F /* SceneDelegate.swift */,
 				D3D44EE327DB884600B60F2F /* ViewController.swift */,
 				D3D44EE527DB884600B60F2F /* Main.storyboard */,
 				D3D44EE827DB884800B60F2F /* Assets.xcassets */,
@@ -183,11 +183,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3D44EFD27DC0A1D00B60F2F /* CourseCell.swift in Sources */,
+				D3D44F0127DF811400B60F2F /* SceneDelegate.swift in Sources */,
 				D3D44EE427DB884600B60F2F /* ViewController.swift in Sources */,
 				D3D44EF927DB8B5800B60F2F /* Service.swift in Sources */,
 				D3D44EFB27DB90C200B60F2F /* Course.swift in Sources */,
 				D3D44EE027DB884600B60F2F /* AppDelegate.swift in Sources */,
-				D3D44EE227DB884600B60F2F /* SceneDelegate.swift in Sources */,
 				D3D44EFF27DE2CC400B60F2F /* CoursesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

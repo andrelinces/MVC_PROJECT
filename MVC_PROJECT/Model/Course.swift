@@ -12,3 +12,4 @@ struct Course: Decodable {
     let name: String
     let numberOfLessons: Int
 }
+
