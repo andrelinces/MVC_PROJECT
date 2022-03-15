@@ -50,8 +50,8 @@ class CoursesController: UITableViewController {
         tableView.register(CourseCell.self, forCellReuseIdentifier: cellId)
         tableView.separatorInset = UIEdgeInsets(top: 0, left: 24, bottom: 0, right: 24)
         tableView.separatorColor = .mainTextBlue
-        //tableView.backgroundColor = UIColor.rgb(r: 12, g: 47, b: 57)
-        tableView.backgroundColor = UIColor.lightGray
+        tableView.backgroundColor = UIColor.rgb(r: 12, g: 47, b: 57)
+        tableView.backgroundColor = UIColor.purple
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 50
         tableView.tableFooterView = UIView()

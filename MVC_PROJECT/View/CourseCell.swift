@@ -18,6 +18,7 @@ class CourseCell: UITableViewCell {
             if course.numberOfLessons > 35 {
                 
                 accessoryType = .detailDisclosureButton
+                //accessoryType = .highlightColor: .rgb(r: 255, g: 240, b: 245)
                 detailTextLabel?.text = "Lessons 30+ Check it Out!"
             }else{
                 
@@ -32,9 +33,10 @@ class CourseCell: UITableViewCell {
     //Name title customization, collor cell customization.
     override func setHighlighted(_ highlighted: Bool, animated: Bool) {
         super.setHighlighted(highlighted, animated: animated)
-        contentView.backgroundColor = isHighlighted ? .highlightColor : .white
+        contentView.backgroundColor = isHighlighted ? .highlightColor : .rgb(r: 255, g: 240, b: 245)
         textLabel?.textColor = isHighlighted ? UIColor.white : .mainTextBlue
-        detailTextLabel?.textColor = isHighlighted ? .white : .black
+        detailTextLabel?.textColor = isHighlighted ? .white : .blue
+        
     }
 
 
