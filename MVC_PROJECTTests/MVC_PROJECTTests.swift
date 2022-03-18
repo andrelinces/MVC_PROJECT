@@ -21,10 +21,10 @@ class MVC_PROJECTTests: XCTestCase {
 
     func testCourseViewModel() {
         let course = Course(id: 0, name: "My Course Name", numberOfLessons: 10)
-        //let courseCell = CourseCell(course: course )
-        // what is it that we want to test?
-        XCTAssertEqual(course.name, course.name)
+        //let courseCell = CourseCell(course: course)
+        //Test check update JSON objects.
         
+        XCTAssertEqual(course.numberOfLessons, course.numberOfLessons)
     }
     
 
